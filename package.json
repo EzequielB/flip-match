@@ -1,0 +1,17 @@
+{
+  "name": "flip-match",
+  "version": "1.0.0",
+  "description": "A simple flip and match game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezequiel Ballesi",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "~3.2.4",
+    "request": "~2.21.0",
+    "async": "~0.2.8",
+    "express-hbs": "~0.2.0"
+  }
+}
