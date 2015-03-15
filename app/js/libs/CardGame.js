@@ -2,10 +2,9 @@
 define([
 		'backbone',
 		'underscore',
-		'views/CardGridView',
-		'Communicator'
+		'views/CardGridView'
 	],
-	function(Backbone, _, CardGridView, Communicator) {
+	function(Backbone, _, CardGridView) {
 		// TODO: improve encapsulation? use partial with a default private context?
 		var CardGame = Backbone.Marionette.Controller.extend({
 
