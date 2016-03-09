@@ -9,3 +9,5 @@ npm install bower -g
 bower install
 grunt build
 ```
+
+##### Check the app running here http://ezequielb.github.io/flip-match/
