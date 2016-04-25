@@ -15952,9 +15952,9 @@ define('libs/CardGridModelFactory',[
 		// * Built in types (number, letters, images?)
 		// * Parameterized types
 		var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
-		//nums = _.shuffle(nums);
+		nums = _.shuffle(nums);
 		nums = nums.concat(nums);
-		//_.shuffle(nums);
+		nums = _.shuffle(nums);
 
 		var n = 6;
 		var rowNums = _.groupBy(nums, function(element, index) {
