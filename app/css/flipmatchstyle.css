@@ -48,7 +48,7 @@ html,body{height:100%;}
   transform-style: preserve-3d;
 }
 
-.card:hover {
+.card:hover:not(.flipped) {
   opacity: 0.7;
 }
 
